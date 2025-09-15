@@ -1,0 +1,32 @@
+# BMTN PWA Splash Screen
+
+This is a minimal Progressive Web App splash screen for BMTN.
+
+## Features
+- Blue bokeh gradient background
+- "BMTN" in Google Audiowide font
+- "Coming Soon" in normal text
+- PWA manifest + icons ready
+- TailwindCSS for styling
+
+## Setup Instructions
+1. Ensure Node.js (v18+) and npm are installed.
+2. Extract this ZIP.
+3. Open a terminal in the extracted folder and run:
+   ```bash
+   npm install
+   npm run dev
+   ```
+4. Visit http://localhost:5173 to see the splash screen.
+5. To build for production:
+   ```bash
+   npm run build
+   npm run preview
+   ```
+
+## PWA Notes
+- You can add real icons at `public/icon-192.png` and `public/icon-512.png`.
+- Edit `manifest.json` if you want custom names or colors.
+- Deploy the `dist/` folder after building to your hosting provider.
+
+Enjoy!
